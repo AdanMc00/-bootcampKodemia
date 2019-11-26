@@ -1,0 +1,54 @@
+
+
+#head{
+    background-color: #FF4800;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width:40%;
+    height: 100%;
+    align-items: center;
+    background-color: #262222;
+   
+
+
+}
+
+
+.img1{
+    display:flex;
+    background-image:url(hero.jpg);
+    background-size:cover;
+    flex-wrap: wrap;
+    align-items: left;}
+    
+
+button{
+    border-radius: 10% 10%;
+    color: white;
+}
+.contenedores{
+    
+    background-color: rgb(227, 248, 255);
+    height:50vh; 
+    width: 50vh;
+    padding: 10px;
+    border-radius: 15%;
+    margin: 10px;   
+}
+.container1{
+    display:flex;
+    flex-wrap: wrap;
+    width:auto;
+    align-items: center; 
+    margin: 10px;
+}
+
+#img2{
+    display:flex;
+    background-image: url(welcome-bg.jpg);
+    background-size:cover;
+    flex-wrap: wrap;
+}
